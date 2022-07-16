@@ -5,6 +5,7 @@ import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
 import Image from '../elements/Image';
 import Modal from '../elements/Modal';
+import ReactImage from 'react-image-wrapper';
 
 const propTypes = {
   ...SectionProps.types
@@ -57,12 +58,15 @@ const Hero = ({
       {...props}
       className={outerClasses}
     >
-      <div className="bigcontainer">
-        <div className="overlay">
-          <video className='videoTag' autoPlay loop muted
-                        src={require('./../../assets/images/header-video-1.mp4')}
-                        type='video/mp4'/>
-        </div>
+      <div className="image-container">
+          <ReactImage
+            id="cover-image"
+            src={require('./../../assets/images/header-image-3.jpg')}
+            shape="box"
+            keepAspectRatio={false}
+            title="Rounded Image"
+          />
+      </div>
       <div className="container-sm">
         <div className={innerClasses}>
           <div className="hero-content">
@@ -88,7 +92,6 @@ const Hero = ({
           <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
           </div>
         </div>
-      </div>
       </div>
     </section>
   );

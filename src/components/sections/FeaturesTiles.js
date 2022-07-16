@@ -44,8 +44,11 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'Our mission',
-    paragraph: 'big man tings'
+    title: 'Our Mission',
+    paragraph: 'There is more renewable energy in the grid than ever before with more being built constantly. \
+              Once built, renewables are the cheapest and most environmentally friendly form of energy available \
+              but the constant fluctuation of production makes utilizing them to their full potential challenging. \
+              We believe we can connect the dots between changing production and consumption in an optimal way.'
   };
 
   return (
@@ -74,7 +77,7 @@ const FeaturesTiles = ({
                     Modernizing Contracts
                     </h4>
                   <p className="m-0 text-sm">
-                    Bringing a new alternative to the electricity market.
+                    We are creating a new alternative to the consumer electricity market. Our product allows a more flexible pricing for any electricity consumer.
                     </p>
                 </div>
               </div>
