@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/landing-page/static/css/main.e306295c.chunk.css",
-    "main.js": "/landing-page/static/js/main.48aad5e8.chunk.js",
-    "main.js.map": "/landing-page/static/js/main.48aad5e8.chunk.js.map",
+    "main.css": "/landing-page/static/css/main.dcae419f.chunk.css",
+    "main.js": "/landing-page/static/js/main.131a1441.chunk.js",
+    "main.js.map": "/landing-page/static/js/main.131a1441.chunk.js.map",
     "runtime-main.js": "/landing-page/static/js/runtime-main.046c461d.js",
     "runtime-main.js.map": "/landing-page/static/js/runtime-main.046c461d.js.map",
-    "static/js/2.8ee7772d.chunk.js": "/landing-page/static/js/2.8ee7772d.chunk.js",
-    "static/js/2.8ee7772d.chunk.js.map": "/landing-page/static/js/2.8ee7772d.chunk.js.map",
+    "static/js/2.2185e85f.chunk.js": "/landing-page/static/js/2.2185e85f.chunk.js",
+    "static/js/2.2185e85f.chunk.js.map": "/landing-page/static/js/2.2185e85f.chunk.js.map",
     "index.html": "/landing-page/index.html",
-    "precache-manifest.83856c2cc03b4fd41560635a502d135e.js": "/landing-page/precache-manifest.83856c2cc03b4fd41560635a502d135e.js",
+    "precache-manifest.8e157d85718738299674f06d0920210b.js": "/landing-page/precache-manifest.8e157d85718738299674f06d0920210b.js",
     "service-worker.js": "/landing-page/service-worker.js",
-    "static/css/main.e306295c.chunk.css.map": "/landing-page/static/css/main.e306295c.chunk.css.map",
-    "static/js/2.8ee7772d.chunk.js.LICENSE.txt": "/landing-page/static/js/2.8ee7772d.chunk.js.LICENSE.txt",
+    "static/css/main.dcae419f.chunk.css.map": "/landing-page/static/css/main.dcae419f.chunk.css.map",
+    "static/js/2.2185e85f.chunk.js.LICENSE.txt": "/landing-page/static/js/2.2185e85f.chunk.js.LICENSE.txt",
     "static/media/style.scss": "/landing-page/static/media/illustration-section-02.63d0555d.svg",
     "static/media/feature-tile-icon-02.svg": "/landing-page/static/media/feature-tile-icon-02.bd39f304.svg",
     "static/media/feature-tile-icon-04.svg": "/landing-page/static/media/feature-tile-icon-04.836acd10.svg",
     "static/media/feature-tile-icon-05.svg": "/landing-page/static/media/feature-tile-icon-05.fa9ba00b.svg",
-    "static/media/header-video-1.mp4": "/landing-page/static/media/header-video-1.9d062de9.mp4",
+    "static/media/header-image-3.jpg": "/landing-page/static/media/header-image-3.a85f2aff.jpg",
     "static/media/logo.svg": "/landing-page/static/media/logo.2810a88b.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.046c461d.js",
-    "static/js/2.8ee7772d.chunk.js",
-    "static/css/main.e306295c.chunk.css",
-    "static/js/main.48aad5e8.chunk.js"
+    "static/js/2.2185e85f.chunk.js",
+    "static/css/main.dcae419f.chunk.css",
+    "static/js/main.131a1441.chunk.js"
   ]
 }
