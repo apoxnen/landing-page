@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/landing-page/static/css/main.cee647f7.chunk.css",
-    "main.js": "/landing-page/static/js/main.1bea6d75.chunk.js",
-    "main.js.map": "/landing-page/static/js/main.1bea6d75.chunk.js.map",
+    "main.css": "/landing-page/static/css/main.e47c698c.chunk.css",
+    "main.js": "/landing-page/static/js/main.49be2b5a.chunk.js",
+    "main.js.map": "/landing-page/static/js/main.49be2b5a.chunk.js.map",
     "runtime-main.js": "/landing-page/static/js/runtime-main.046c461d.js",
     "runtime-main.js.map": "/landing-page/static/js/runtime-main.046c461d.js.map",
-    "static/js/2.2185e85f.chunk.js": "/landing-page/static/js/2.2185e85f.chunk.js",
-    "static/js/2.2185e85f.chunk.js.map": "/landing-page/static/js/2.2185e85f.chunk.js.map",
+    "static/js/2.327f5185.chunk.js": "/landing-page/static/js/2.327f5185.chunk.js",
+    "static/js/2.327f5185.chunk.js.map": "/landing-page/static/js/2.327f5185.chunk.js.map",
     "index.html": "/landing-page/index.html",
-    "precache-manifest.4e4d5308bcdb1bb3728ceac382200cb4.js": "/landing-page/precache-manifest.4e4d5308bcdb1bb3728ceac382200cb4.js",
+    "precache-manifest.7ace74d3f52940980b384610cf995bc1.js": "/landing-page/precache-manifest.7ace74d3f52940980b384610cf995bc1.js",
     "service-worker.js": "/landing-page/service-worker.js",
-    "static/css/main.cee647f7.chunk.css.map": "/landing-page/static/css/main.cee647f7.chunk.css.map",
-    "static/js/2.2185e85f.chunk.js.LICENSE.txt": "/landing-page/static/js/2.2185e85f.chunk.js.LICENSE.txt",
+    "static/css/main.e47c698c.chunk.css.map": "/landing-page/static/css/main.e47c698c.chunk.css.map",
+    "static/js/2.327f5185.chunk.js.LICENSE.txt": "/landing-page/static/js/2.327f5185.chunk.js.LICENSE.txt",
     "static/media/style.scss": "/landing-page/static/media/illustration-section-02.63d0555d.svg",
     "static/media/feature-tile-icon-02.svg": "/landing-page/static/media/feature-tile-icon-02.bd39f304.svg",
     "static/media/feature-tile-icon-04.svg": "/landing-page/static/media/feature-tile-icon-04.836acd10.svg",
@@ -21,8 +21,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.046c461d.js",
-    "static/js/2.2185e85f.chunk.js",
-    "static/css/main.cee647f7.chunk.css",
-    "static/js/main.1bea6d75.chunk.js"
+    "static/js/2.327f5185.chunk.js",
+    "static/css/main.e47c698c.chunk.css",
+    "static/js/main.49be2b5a.chunk.js"
   ]
 }
