@@ -22,6 +22,22 @@
 
     .form-input {
         min-width: 280px;
+        .msg-alert {
+            padding-top: 2.5em;
+            color: black;
+        }
+    }
+    input {
+        border-color: transparent;
+        border-radius: 2px;
+        background-color: inherit;
+        color: gray;
+    }
+    button {
+        background-color: black;
+        color: white;
+        
+        cursor: pointer;
     }
 }    
 
