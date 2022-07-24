@@ -22,6 +22,8 @@
 
     .form-input {
         min-width: 280px;
+        border-radius: 1.1em;
+        height: 3.5em;
         .msg-alert {
             padding-top: 2.5em;
             color: black;
@@ -33,9 +35,19 @@
         background-color: inherit;
         color: gray;
     }
+    input:focus { 
+        outline: none !important;
+        border-color: none;
+    }
+    textarea:focus { 
+        outline: none !important;
+        border-color: none;
+    }
     button {
-        background-color: black;
-        color: white;
+        background-color: get-color(primary, 3);
+        color: get-color(light, 1);
+        border-radius: 7px;
+        height:2em;
         
         cursor: pointer;
     }
@@ -46,3 +58,48 @@
 		padding-right: 48px;
 	}
 }
+
+@include media( '<medium' ) {
+
+    .cta {
+    
+        .form-input {
+            min-width: 280px;
+            border-radius: 1.1em;
+            height: 3.5em;
+            .msg-alert {
+                padding-top: 2.5em;
+                color: black;
+            }
+        }
+        input {
+            border-color: transparent;
+            border-radius: 2px;
+            background-color: inherit;
+            color: gray;
+        }
+        input:focus { 
+            outline: none !important;
+            border-color: none;
+        }
+        textarea:focus { 
+            outline: none !important;
+            border-color: none;
+        }
+        button {
+            background-color: get-color(primary, 3);
+            color: get-color(light, 1);
+            border-radius: 7px;
+            height:2em;
+            border-color: get-color(primary, 1);
+            
+            cursor: pointer;
+        }
+    }    
+    
+        .cta-inner {
+            padding-left: 48px;
+            padding-right: 48px;
+        }
+    }
+    

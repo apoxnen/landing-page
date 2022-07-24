@@ -70,10 +70,10 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Miten se toimii?
+                Uusi sopimustyyppi
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Uusi sopimustyyppi - kaksi kiinteää hintaa
+                   Kaksi kiinteää hintaa
                   </h3>
                 <p className="m-0">
                 Markkinoiden ehdottomasti halvinta sähköä saat kun tuulivoimalamme tuottavat sähköä. 
@@ -100,7 +100,7 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Miten me autamme sinua pienentämään sähkölaskuasi ja hiilijalanjälkeäsi?
+                  Pienennä sähkölaskuasi ja hiilijalanjälkeäsi
                   </div>
                 <h3 className="mt-0 mb-12">
                   Kulutuksen siirtäminen tuulisille tunneille
@@ -120,7 +120,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/header-image-2.jpg')}
+                  src={require('./../../assets/images/table1.PNG')}
                   alt="Features split 02"
                   width={528}
                   height={396} />

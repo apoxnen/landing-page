@@ -6,6 +6,7 @@ import Button from '../elements/Button';
 import Image from '../elements/Image';
 import Modal from '../elements/Modal';
 import ReactImage from 'react-image-wrapper';
+import { HashLink } from 'react-router-hash-link';
 
 const propTypes = {
   ...SectionProps.types
@@ -75,11 +76,13 @@ const Hero = ({
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                  Kuluta halvinta mahdollista sähköä tuulisina aikoina ja tue siirtymää fossiilittomaan sähköverkkoon                </p>
+                  Kuluta halvinta mahdollista sähköä tuulisina aikoina ja tue siirtymää fossiilittomaan sähköverkkoon.</p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
                   <Button tag="a" color="primary" wideMobile href="#">
-                    Tilaa uutiskirje
+                    
+                    <HashLink smooth to='#cta' > Tilaa uutiskirje </HashLink>
+                    
                     </Button>
                     {/** 
                   <Button tag="a" color="dark" wideMobile href="#illustration-section-02">
