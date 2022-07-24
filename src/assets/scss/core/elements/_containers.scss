@@ -3,12 +3,10 @@
 .container-xs {
 	width: 100%;
 	margin: 0 auto;
-	padding-left: $container--padding__mobile;
-	padding-right: $container--padding__mobile;
+
 
 	@include media( '>small' ) {
-		padding-left: $container--padding__desktop;
-		padding-right: $container--padding__desktop;
+
 	}
 }
 

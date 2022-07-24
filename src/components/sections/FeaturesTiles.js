@@ -45,8 +45,8 @@ const FeaturesTiles = ({
 
   const sectionHeader = {
     title: 'Tavoitteemme',
-    paragraph: 'Me haluamme mahdollistaa jokaiselle kotitaloudelle mahdollisuuden alentaa sähkölaskuaan \
-    ja samalla tehdä ympäristölle ystävällisiä valintoja. Halpa ja vihreä sähkö kulkevat käsi kädessä.'
+    paragraph: 'Me tarjoamme jokaiselle kotitaloudelle mahdollisuuden alentaa sähkölaskua \
+    ja samalla tehdä ympäristöystävällisiä valintoja. Halpa ja vihreä sähkö kulkevat käsi kädessä.'
   };
 
   return (
@@ -75,7 +75,8 @@ const FeaturesTiles = ({
                     Selkeää säästöä sähkölaskuun
                     </h4>
                   <p className="m-0 text-sm">
-                  Kuluttamalla sähköä tuulisina tunteina saat alennettua sähkölaskuasi huomattavasti. Ilman kulutusmuutoksiakin voit päästä halvemmalla kuin nykyään.
+                    Tarjoamme uuden hinnoittelutavan sähköllesi, joka perustuu tuulivoiman saatavuuteen.
+                    Kuluttamalla sähköä tuulisina tunteina saat alennettua sähkölaskuasi huomattavasti, ilman kulutusmuutoksiakin voit päästä halvemmalla kuin nykyään.
                     </p>
                 </div>
               </div>
@@ -97,7 +98,7 @@ const FeaturesTiles = ({
                   Aidosti puhtainta sähköä
                     </h4>
                   <p className="m-0 text-sm">
-                  Tuulisähkö on puhtainta silloin, kun kulutat sähköä samaan aikaan tuulituotannon kanssa. Nykyiset alkuperätakuisiin perustuvat tuulisopimukset eivät ole niin puhtaita kuin olisi mahdollista.                    </p>
+                  Sähkö on puhtainta silloin, kun kulutat sähköä samaan aikaan uusiutuvien tuotannon kanssa. Nykyiset alkuperätakuisiin perustuvat tuulisopimukset eivät ole niin puhtaita kuin olisi mahdollista.                    </p>
                 </div>
               </div>
             </div>

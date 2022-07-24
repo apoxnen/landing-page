@@ -78,10 +78,8 @@ const FeaturesSplit = ({
                 <p className="m-0">
                 Markkinoiden ehdottomasti halvinta sähköä saat kun tuulivoimalamme tuottavat sähköä. 
                 Kalliimpaa hintaa maksat vain silloin, kun kulutat sähköä tuulettomina tunteina. 
-                Mitä enemmän siirrät kulutusta tuulisille tunneille, sitä enemmän säästät ja pienennät hiilijalanjälkeäsi. 
-                Tuulisähkömme tulee suoraan tuulivoimalasta, jonka tulevaa tuotantoa ennustamme. 
-                Tuulettomilla hetkillä kulutettavan sähkön ostamme pörssistä, 
-                jolloin sähkön alkuperä on yhdistelmä kaikkia tuotantolähteitä, jotka tuottavat sähköä Suomen sähköverkkoon.                      </p>
+                Mitä enemmän siirrät kulutusta tuulisille tunneille, sitä enemmän säästät ja pienennät hiilijalanjälkeäsi.                       
+                </p>
               </div>
               <div className={
                 classNames(
@@ -90,7 +88,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/header-image-1.jpg')}
+                  src={require('./../../assets/images/table1.PNG')}
                   alt="Features split 01"
                   width={528}
                   height={396} />
@@ -106,11 +104,10 @@ const FeaturesSplit = ({
                   Kulutuksen siirtäminen tuulisille tunneille
                   </h3>
                 <p className="m-0">
-                Tuotamme sinulle selkeitä kehotuksia milloin halpaa sähköä kannattaa kuluttaa. 
-                Annamme sinulle joka päivä neljän seuraavan päivän ennusteen. Mitä lähempänä nykyhetkeä, 
-                sen tarkempi ennuste on. Huomisen ennuste on aina tarkin, sille annamme tuntikohtaiset ohjeet 
-                sähkönkulutukseen. Ylihuomiselle kerromme todennäköisesti parhaimmat kulutusajankohdat. 
-                Päivät 3 ja 4 ovat vaikeampia ennustaa, annamme näille arvion siitä, tulevatko ne olemaan tuulisia vai eivät.                  
+                Tuotamme sinulle selkeitä kehotuksia milloin halpaa sähköä voi ja kannattaa kuluttaa. 
+                Annamme sinulle joka päivä neljän seuraavan päivän ennusteet, joita voit käyttää tukena kulutuksesi suunnittelussa.
+                Huomisen ja ylihuomisen ennusteissa tarjoamme tuntikohtaisen tiedon sähkösi lähteestä, muille päiville yleisemmän ennusteen tuulisuudesta.
+                Laadukkaiden ennusteiden avulla kulutuksen siirtäminen tuulisille tunneille sujuu vaivattomasti.
                 </p>
               </div>
               <div className={
@@ -120,7 +117,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/table1.PNG')}
+                  src={require('./../../assets/images/header-image-1.jpg')}
                   alt="Features split 02"
                   width={528}
                   height={396} />
