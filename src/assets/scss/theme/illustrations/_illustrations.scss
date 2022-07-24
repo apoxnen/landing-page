@@ -21,5 +21,10 @@
 
 // Features illustration 02
 .illustration-section-02::after {
-	@include illustration('illustration-section-02.svg', 100%, 253px, null, null, 30px);
+	@include illustration('header-image-1.jpg', 50%, 300px, null, 30%, 30%);
+}
+
+// Features illustration 03
+.illustration-section-03::after {
+	@include illustration('header-image-1.jpg', 20%, 720px, null, -20%, 10%);
 }

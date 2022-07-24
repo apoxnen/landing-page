@@ -123,9 +123,12 @@ const Header = ({
                     <ul
                       className="list-reset header-nav-right"
                     >
-                      <li>
-                        <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Sign up</Link>
+                    {/* 
+                      <li>                        
+                        <Link className="button button-primary button-wide-mobile button-sm" onClick={() => window.location.replace("landing-page#cta")}>Tilaa uutiskirje</Link>
                       </li>
+                    */}
+
                     </ul>}
                 </div>
               </nav>

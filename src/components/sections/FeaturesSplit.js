@@ -51,7 +51,7 @@ const FeaturesSplit = ({
 
   const sectionHeader = {
     title: 'Kuinka se toimii',
-    paragraph: 'liirum laarum'
+    paragraph: ''
   };
 
   return (
@@ -70,10 +70,10 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Uusi sopimustyyppi
+                  Miten se toimii?
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Kaksi kiinteää hintaa
+                  Uusi sopimustyyppi - kaksi kiinteää hintaa
                   </h3>
                 <p className="m-0">
                 Markkinoiden ehdottomasti halvinta sähköä saat kun tuulivoimalamme tuottavat sähköä. 
@@ -100,17 +100,17 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Kulutuksen siirtäminen tuulisille tunneille
+                  Miten me autamme sinua pienentämään sähkölaskuasi ja hiilijalanjälkeäsi?
                   </div>
                 <h3 className="mt-0 mb-12">
-                Miten me autamme sinua pienentämään sähkölaskuasi ja hiilijalanjälkeäsi?
+                  Kulutuksen siirtäminen tuulisille tunneille
                   </h3>
                 <p className="m-0">
                 Tuotamme sinulle selkeitä kehotuksia milloin halpaa sähköä kannattaa kuluttaa. 
                 Annamme sinulle joka päivä neljän seuraavan päivän ennusteen. Mitä lähempänä nykyhetkeä, 
-                sen tarkempi ennuste on. Ennusteen päivä 1 (huominen) on aina tarkin, sille annamme tuntikohtaiset ohjeet 
-                sähkönkulutukseen. Päivälle 2 kerromme kerromme todennäköisesti parhaimman kulutusajankohdan. 
-                Päivät 3 ja 4 ovat epätarkempia, osaamme sanoa tulevatko nämä päivät olemaan tuulisia vai eivät.                  
+                sen tarkempi ennuste on. Huomisen ennuste on aina tarkin, sille annamme tuntikohtaiset ohjeet 
+                sähkönkulutukseen. Ylihuomiselle kerromme todennäköisesti parhaimmat kulutusajankohdat. 
+                Päivät 3 ja 4 ovat vaikeampia ennustaa, annamme näille arvion siitä, tulevatko ne olemaan tuulisia vai eivät.                  
                 </p>
               </div>
               <div className={
