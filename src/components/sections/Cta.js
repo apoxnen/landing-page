@@ -54,7 +54,7 @@ const Cta = ({
         >
           <div className="cta-slogan">
             <h3 className="m-0">
-              Sign up for our newsletter
+              Tilaa uutiskirjeemme
               </h3>
           </div>
           <div className="cta-action">
@@ -62,7 +62,7 @@ const Cta = ({
               fields={[
                 {
                   name: 'EMAIL',
-                  placeholder: 'Email',
+                  placeholder: 'sähköpostiosoitteesi',
                   type: 'email',
                   required: true
                 }
@@ -70,12 +70,12 @@ const Cta = ({
               // Change predetermined language
               messages={
               {
-                  sending: "Sending...",
-                  success: "Thank you for subscribing!",
-                  error: "An unexpected internal error has occurred.",
-                  empty: "You must write an e-mail.",
-                  duplicate: "Too many subscribe attempts for this email address",
-                  button: "Subscribe"
+                  sending: "Lähetetään...",
+                  success: "Kiitos tilauksesta!",
+                  error: "Virhe järjestelmässä.",
+                  empty: "Kirjoita sähköpostiosoite kenttään.",
+                  duplicate: "Tämä sähköpostiosoite on jo tilaajalistalla",
+                  button: "Tilaa"
               }
           }
               className="form-input"     

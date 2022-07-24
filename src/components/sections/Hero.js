@@ -71,20 +71,21 @@ const Hero = ({
         <div className={innerClasses}>
           <div className="hero-content">
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              Bringing renewables to <span className="text-color-primary">everyone</span>
+                Aidosti puhtainta ja halvinta sähköä <span className="text-color-primary">sinulle</span>
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                We are building a way for households to enjoy cheap, 100% green electricity when it is available.
-                </p>
+                  Kuluta halvinta mahdollista sähköä tuulisina aikoina ja tue siirtymää fossiilittomaan sähköverkkoon                </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
                   <Button tag="a" color="primary" wideMobile href="#">
-                    Sign up
+                    Tilaa uutiskirje
                     </Button>
+                    {/** 
                   <Button tag="a" color="dark" wideMobile href="#illustration-section-02">
                     How it works
                     </Button>
+                    */}
                 </ButtonGroup>
               </div>
             </div>

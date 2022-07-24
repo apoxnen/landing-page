@@ -44,11 +44,9 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'Our Mission',
-    paragraph: 'There is more renewable energy in the grid than ever before with more being built constantly. \
-              Once built, renewables are the cheapest and most environmentally friendly form of energy available \
-              but the constant fluctuation of production makes utilizing them to their full potential challenging. \
-              We believe we can connect the dots between changing production and consumption in an optimal way.'
+    title: 'Tavoitteemme',
+    paragraph: 'Me haluamme mahdollistaa jokaiselle kotitaloudelle mahdollisuuden alentaa sähkölaskuaan \
+    ja samalla tehdä ympäristölle ystävällisiä valintoja. Halpa ja vihreä sähkö kulkevat käsi kädessä.'
   };
 
   return (
@@ -74,10 +72,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Modernizing Contracts
+                    Selkeää säästöä sähkölaskuun
                     </h4>
                   <p className="m-0 text-sm">
-                    We are creating a new alternative to the consumer electricity market. Our product allows a more flexible pricing for any electricity consumer.
+                  Kuluttamalla sähköä tuulisina tunteina saat alennettua sähkölaskuasi huomattavasti. Ilman kulutusmuutoksiakin voit päästä halvemmalla kuin nykyään.
                     </p>
                 </div>
               </div>
@@ -96,11 +94,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Incentivizing Renewable Consumption
+                  Aidosti puhtainta sähköä
                     </h4>
                   <p className="m-0 text-sm">
-                    Our model encourages consumers to shift their consumption to times when there is excess renewable production.
-                    </p>
+                  Tuulisähkö on puhtainta silloin, kun kulutat sähköä samaan aikaan tuulituotannon kanssa. Nykyiset alkuperätakuisiin perustuvat tuulisopimukset eivät ole niin puhtaita kuin olisi mahdollista.                    </p>
                 </div>
               </div>
             </div>
@@ -118,10 +115,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Competitive Prices
+                  Hyödy uusiutuvista kuten isot yritykset ovat hyötyneet jo vuosia.
                     </h4>
                   <p className="m-0 text-sm">
-                    By shifting their consumption, our customers can save significant amounts on their electricity prices as current electrity contract prices soar.
+                  Suuret sähkönkuluttajat ostavat sähköä suoraan tuulipuistoista, joka on halvempaa kuin kuluttajalle tarjottava sähkö. Enää tämä ei ole mahdollista vain isoille yrityksille!
                     </p>
                 </div>
               </div>
