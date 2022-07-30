@@ -87,12 +87,52 @@ const FeaturesSplit = ({
                   imageFill && 'split-item-image-fill'
                 )}
                 data-reveal-container=".split-item">
+                  {/**
                 <Image
                   src={require('./../../assets/images/table1.PNG')}
                   alt="Features split 01"
                   width={528}
                   height={396} />
-              </div>
+                */}
+              <table>
+                <tr>
+                  <th></th>
+                  <th>Kiinteä</th>
+                  <th>Pörssi</th>
+                  <th>Aito Tuuli</th>
+                </tr>
+                <tr>
+                  <td><b>Hinta</b></td>
+                  <td>Kiinteä</td>
+                  <td>Vaihteleva</td>
+                  <td>Kaksi kiinteää hintaa</td>
+                </tr>
+                <tr>
+                  <td><b>Riski</b></td>
+                  <td>Matala</td>
+                  <td>Korkea</td>
+                  <td>Keskitaso</td>
+                </tr>
+                <tr>
+                  <td><b>Ympäristöystävällisyys</b></td>
+                  <td>Kyseenalainen</td>
+                  <td>Keskitaso</td>
+                  <td>Korkea</td>
+                </tr>
+                <tr>
+                  <td><b>Lyhyen ajan ennustettavuus</b></td>
+                  <td>Erittäin korkea</td>
+                  <td>Matala</td>
+                  <td>Keskitaso</td>
+                </tr>
+                <tr>
+                  <td><b>Pitkän ajan ennustettavuus</b></td>
+                  <td>Matala</td>
+                  <td>Matala</td>
+                  <td>Keskitaso</td>
+                </tr>
+              </table>
+                </div>
             </div>
 
             <div className="split-item">
@@ -116,11 +156,19 @@ const FeaturesSplit = ({
                   imageFill && 'split-item-image-fill'
                 )}
                 data-reveal-container=".split-item">
+                {/** 
                 <Image
                   src={require('./../../assets/images/header-image-1.jpg')}
                   alt="Features split 02"
                   width={528}
                   height={396} />
+                */}
+                <Image
+                  src={require('./../../assets/images/split2.png')}
+                  alt="Features split 02"
+                  id = "split-img"
+                  width={528}
+                  height={450} />
               </div>
             </div>
 

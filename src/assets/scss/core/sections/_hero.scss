@@ -53,6 +53,10 @@
 
 	.hero {
 
+		.hero-content{
+			padding: 0 $footer--padding__desktop*0.25;
+		}
+
 		.split-wrap {
 
 			.split-item {
@@ -79,6 +83,10 @@
 
 	.hero {
 
+		.hero-content{
+			padding: 0 $footer--padding__desktop*0.25;
+		}
+		
 		.section-inner {
 			padding-top: $hero--padding-t__desktop;
 			padding-bottom: $hero--padding-b__desktop;

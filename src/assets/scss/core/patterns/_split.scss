@@ -58,10 +58,30 @@
 				.split-item-content {
 					order: 1;
 					margin-bottom: 0 !important;
+					padding-left: $split-item--inner-padding-v_mobile * 0.5;
+					padding-right: $split-item--inner-padding-v_mobile * 0.5;
 				}
 
 				.split-item-image {
 					margin-bottom: $split-item--inner-padding-v_mobile;
+				}
+
+				Table {
+					padding-left: $split-item--inner-padding-v_mobile;
+					padding-right: $split-item--inner-padding-v_mobile;
+					width: inherit;
+					display: block;
+					overflow-x: auto;
+					white-space: nowrap;
+					font-size: x-small;
+					th {
+						text-align: left;
+					}
+					td {
+						padding-left: $split-item--inner-padding-v_mobile * 0.25;
+						padding-right: $split-item--inner-padding-v_mobile * 0.25;
+						text-align: left;
+					}
 				}
 			}
 		}
@@ -84,7 +104,8 @@
 		.split-item {
 			padding-top: $split-item--padding-v__desktop * 0.5;
 			padding-bottom: $split-item--padding-v__desktop * 0.5;
-			flex-direction: row;
+			padding-left: $split-item--padding-v__desktop * 0.5;
+			padding-right: $split-item--padding-v__desktop * 0.5;
 			flex-wrap: nowrap;
 			align-items: center;
 			justify-content: flex-start;
@@ -92,12 +113,16 @@
 			.split-item-content {
 				flex-shrink: 0;
 				width: ($container--width-sm * 0.5) - $split-item-content--padding-h;
-				margin-bottom: 0;
 				margin-right: $split-item--inner-padding-h;
+				margin-bottom: $split-item--padding-v__desktop;
 			}
 
 			.split-item-image {
+				margin-bottom: $split-item--padding-v__desktop;
 				min-width: ($container--width-sm * 0.5) - $split-item-image--padding-h;
+				img {
+					border-radius: 25px;
+				}
 			}
 		}
 
@@ -119,6 +144,7 @@
 
 				img,
 				svg,
+				table
 				video {
 					margin-left: auto;
 				}
@@ -148,6 +174,25 @@
 
 				.split-item-image {
 					min-width: ($container--width * 0.5) - $split-item-image--padding-h;
+					img {
+						border-radius: 25px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@include media( '>x-large' ) {
+
+	.container {
+
+		.split-wrap {
+
+			.split-item {
+				flex-direction: row;
+				img {
+					border-radius: 25px;
 				}
 			}
 		}

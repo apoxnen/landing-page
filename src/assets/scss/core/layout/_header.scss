@@ -88,6 +88,9 @@
 
 @include media( '<=medium' ) {
 
+	.site-header-inner {
+		padding: $footer--padding__desktop $footer--padding__desktop*0.5;
+	}
 	.header-nav-toggle {
 		display: block;
 
@@ -149,5 +152,6 @@
 
 	.site-header-inner {
 		height: $header-height__desktop;
+		padding: $footer--padding__desktop $footer--padding__desktop*0.5;
 	}
 }
