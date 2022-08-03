@@ -55,11 +55,11 @@ const Cta = ({
         >
           <div className="cta-slogan">
             <h3 className="m-0">
-              Ole ensimmäisten joukossa   
+              Ole ensimmäisten joukossa
             </h3>
           </div>
           <div className="cta-action">
-          <Mailchimp action="XXX"
+          <Mailchimp action="https://github.us9.list-manage.com/subscribe/post?u=f9760cea1ace436f629cc3d4b&amp;id=a3db93a737"
               fields={[
                 {
                   name: 'EMAIL',
