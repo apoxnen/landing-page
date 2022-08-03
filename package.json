@@ -1,7 +1,7 @@
 {
   "name": "Aito Tuuli",
   "version": "0.8.0",
-  "homepage": "https://apoxnen.github.io/landing-page",
+  "homepage": ".",
   "private": false,
   "dependencies": {
     "classnames": "^2.2.6",
@@ -19,11 +19,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cruip/open-react-template.git"
+    "url": "https://github.com/apoxnen/landing-page.git"
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "react-scripts build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
